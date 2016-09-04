@@ -69,3 +69,7 @@ Dispatch this action to configure an access token to include in all requests. At
 #### `setEndpointFetchMode( fetchMode: string ): object`
 
 Dispatch this action to configure Request.mode for fetch in all requests. It requires one argument. May be useful for endpoint under CORS.
+
+```js
+dispatch(setEndpointFetchMode('cors'));
+```
